@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "cinema-da-gente";
+  src:url("../fonts/cinema-da-gente.eot");
+  src:url("../fonts/cinema-da-gente.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/cinema-da-gente.woff") format("woff"),
+    url("../fonts/cinema-da-gente.ttf") format("truetype"),
+    url("../fonts/cinema-da-gente.svg#cinema-da-gente") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "cinema-da-gente" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "cinema-da-gente" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-heart:before {
+  content: "\61";
+}
+.icon-mail:before {
+  content: "\64";
+}
+.icon-instagrem:before {
+  content: "\65";
+}
+.icon-facebook:before {
+  content: "\62";
+}
+.icon-twitter:before {
+  content: "\63";
+}

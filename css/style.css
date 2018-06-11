@@ -1,0 +1,82 @@
+body {
+	font-family: "OpenSansRegular", Helvetica, Roboto, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 1.1em;
+}
+
+h1, .h1 {
+	color: #363636;
+	font-family: "OpenSansExtrabold";
+	text-align: center;
+	padding: .9em 0 .5em 0;
+}
+
+h2, .h2, h3, .h3 {
+	color: #363636;
+	font-family: "OpenSansExtrabold";
+	font-size: 1.4em;
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+	font-family: "OpenSansSemibold";
+}
+
+p {
+	font-family: "OpenSansLight";
+}
+
+strong {
+	color: #DA4242;
+}
+
+strong.second {
+	color: #363636;
+	font-family: "OpenSansExtrabold";
+}
+
+.top-bar {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.top-bar, .top-bar ul {
+	background-color: #DA4242;
+	color: #FFFFFF;
+}
+
+.top-bar ul li a {
+	color: #FFFFFF;
+}
+
+.top-bar ul li a:hover {
+	color: #751C1C;
+}
+
+.main-image {
+	background: url("../img/main-image.jpg");
+	background-size: cover;
+	height: 100%;
+	text-align: center;
+	padding: 5.5em 0;
+}
+
+.episodes {
+	background-color: #E5E5E5;
+	padding-bottom: 2.8em;
+}
+
+.cover {
+	margin-bottom: 1.5em;
+}
+
+.social {
+	min-height: 140px;
+	padding: 3em 0;
+	font-size: 1.3em;
+}
+
+.social .menu li a {
+	font-size: 1.7em;
+}
